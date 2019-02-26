@@ -1,2 +1,2 @@
 # WiaTalk
-application de messagérie instantanée capable d effectuer les fonctionnalités suivantes : chat message, transfert de fichier , appel audio et vidéo  
+instant messaging application capable of performing the following functions: chat message, file transfer, audio and video call 
