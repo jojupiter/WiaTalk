@@ -1,0 +1,16 @@
+{
+  "name": "testchat",
+  "version": "1.0.0",
+  "description": "test de communication avec client android et serveur nodejs",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "fofe",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^4.16.3",
+    "mysql": "^2.16.0",
+    "socket.io": "^2.1.1"
+  }
+}
