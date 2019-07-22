@@ -1,0 +1,119 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+
+    tools:context=".Contacts.CreateContact">
+
+    <android.support.v7.widget.Toolbar
+        android:id="@+id/toolbar"
+        android:layout_width="match_parent"
+        android:layout_height="36dp"
+        android:background="?attr/colorPrimary"
+        app:popupTheme="@style/AppTheme.PopupOverlay" >
+
+    <ImageButton
+        android:id="@+id/butGoodContact"
+        android:layout_width="30dp"
+        android:layout_height="36dp"
+        android:layout_gravity="left"
+        android:background="?attr/colorPrimary"
+        android:src="@drawable/good" />
+    </android.support.v7.widget.Toolbar>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:orientation="vertical">
+        <ScrollView
+            android:id="@+id/scrollViewContact"
+            android:layout_width="match_parent"
+            android:layout_height="151dp"
+
+            android:layout_alignParentStart="true"
+            android:layout_alignParentTop="true"
+            android:layout_marginTop="37dp">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_alignParentBottom="true"
+                android:orientation="vertical">
+
+                <EditText
+                    android:id="@+id/NameTest_addcontact"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:ems="10"
+                    android:hint="Name"
+                    android:inputType="textMultiLine"
+
+                    />
+
+                <EditText
+                    android:id="@+id/PseudoTest_addcontact"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:ems="10"
+                    android:hint="login"
+                    android:inputType="textPersonName" />
+
+                <EditText
+                    android:id="@+id/TelText_addcontact"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:ems="10"
+                    android:hint="Tel"
+                    android:inputType="phone" />
+
+                <TextView
+                    android:id="@+id/Actu_addcontact"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:ems="10"
+                    android:text="actu"
+                    android:textSize="20sp"/>
+
+            </LinearLayout>
+        </ScrollView>
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+
+
+
+
+        <fragment
+            android:id="@+id/fragment_create_contact"
+            android:name="com.example.fofe.wiatalk.Contacts.findContactFragment"
+            android:layout_width="600dp"
+            android:layout_height="800dp"
+            android:layout_alignParentBottom="true"
+            android:layout_alignParentEnd="true"
+            android:layout_marginBottom="196dp"
+            android:layout_marginEnd="155dp" />
+
+
+    </LinearLayout>
+
+
+
+
+    </LinearLayout>
+
+
+
+
+</RelativeLayout>

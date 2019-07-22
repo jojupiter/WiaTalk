@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_marginBottom="8dp"
+    android:layout_marginTop="8dp"
+    android:layout_marginEnd="8dp"
+    android:layout_marginStart="8dp"
+    >
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:id="@+id/relative_layout_chat_receiver"
+        android:layout_gravity="end"
+
+        >
+        <android.support.text.emoji.widget.EmojiTextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:maxWidth="250dp"
+            android:minWidth="120dp"
+            android:paddingTop="4dp"
+            android:paddingEnd="8dp"
+            android:paddingStart="8dp"
+            android:textAppearance="@style/Base.TextAppearance.AppCompat"
+            android:id="@+id/textView_chat"
+            android:background="@drawable/bot_bubble"
+
+            android:text="@string/testMsg"
+            />
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/textView_time_chat"
+            android:layout_below="@+id/textView_chat"
+            android:layout_alignEnd="@+id/textView_chat"
+            android:layout_marginEnd="8dp"
+            android:textSize="12sp"
+            android:background="#F6F2F2"
+
+            android:text="3/15/2018 3:00PM"/>
+
+    </RelativeLayout>
+
+</FrameLayout>

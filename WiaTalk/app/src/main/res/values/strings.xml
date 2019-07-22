@@ -1,0 +1,23 @@
+<resources>
+    <string name="app_name">WiaTalk</string>
+    <string name="hint_sendMessage">Enter message</string>
+    <string name="buttonCreateNewAccount">Create Your Account</string>
+    <string name="buttonLogin">Login</string>
+    <string name="title_activity_profil">profilActivity</string>
+    <string name="title_home">Home</string>
+    <string name="title_dashboard">Dashboard</string>
+    <string name="title_notifications">Notifications</string>
+    <string name="notification_error_1">Impossible de contacter le serveur</string>
+
+    <string name="title_activity_main2">Main2Activity</string>
+    <string name="title_activity_epicenter">epicenterActivity</string>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="actuContact">Hey there ! I am using WiaTalk</string>
+    <string name="testMsg">Hey there ! I am using WiaTalk ndjdjenjdnjnjdnnjdnjndjnjd
+    jndjnjndjnzjdnjnjdnjznjdnjznjdnzjdnjznjdn
+    jdjnjndjnzzjndjnjndsjdnjsnjdnjndjnjdn</string>
+
+    <string name="title_activity_create_contact">CreateContact</string>
+</resources>

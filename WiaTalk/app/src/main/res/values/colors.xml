@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#3F51B5</color>
+    <color name="colorPrimaryDark">#303F9F</color>
+    <color name="colorAccent">#FF4081</color>
+    <color name="colorButtonAfterClick">#93A992</color>
+    <color name="colorPrimaryWhatsApp">#075E54</color>
+    <color name="colorWriteMsg">#EEF9F7</color>
+
+</resources>

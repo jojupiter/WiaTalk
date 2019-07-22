@@ -1,0 +1,14 @@
+{
+
+
+  "User":
+    {
+      "firstname": "",
+      "lastname": "",
+      "pseudo": "",
+      "pwd": "",
+      "photoProfil": "",
+      "statutProfil":"",
+      "idUser":""
+    }
+}
