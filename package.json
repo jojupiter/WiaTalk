@@ -9,7 +9,7 @@
   "author": "fofe",
   "license": "ISC",
   "dependencies": {
-    "express": "^4.16.3",
+    "express": "^4.17.3",
     "mysql": "^2.16.0",
     "socket.io": "^2.1.1"
   }
